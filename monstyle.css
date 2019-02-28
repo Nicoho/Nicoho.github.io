@@ -1,0 +1,45 @@
+.imagefloue {
+    
+    z-index:1;            
+           position:relative; }
+
+.imggandalf {opacity:0.5;}
+
+.reward { position: absolute;
+         z-index:2;
+        height:50px;
+        width:200px;
+        text-align:center;  
+        padding-top:10px;
+        top:60px;
+  margin:auto;
+        margin-top:10px;
+        margin-left: 40px;
+        background-color: rgba(211,211,211,0.8);
+        border-radius: 12px; 
+}
+
+.reward em {color:yellow;}    
+
+.txtclair{position: absolute;
+         z-index:2;
+          bottom: 50px;
+         color:white;
+         font-size: 20px;
+         margin-left:100px;
+}
+
+
+.imagefloue:hover .imggandalf{ opacity:1;}
+
+.imagefloue:hover .reward { display:none;}
+
+.imagefloue:hover .txtclair{position: absolute;
+         z-index:2;
+          bottom: 80px;
+         color:white;
+         font-size: 40px;
+         margin-left:60px;}
+
+
+.
