@@ -1,3 +1,67 @@
+
+@font-face { font-family: "anironC";
+            src:url("polices/anicb___.ttf"); }
+
+@font-face { font-family: "Party Business";
+            src:url("polices/partybusiness.ttf"); }
+
+@font-face{ font-family:"Tengwar Annatar";
+        src:url ("polices/tnganb.ttf"); ;}
+
+.menu{
+    font-size: 25px;
+    background-color: red;
+ }
+
+ .cpm {color:white;
+    font-size:1.2em;}
+
+body {font-family:"Party Business";
+      ;}
+
+h1, h2 {font-family:"anironC";
+    }
+
+h2 em {font-family: "Tengwar Annatar";
+        color:red;}
+
+h2 {text-align:center;
+     margin-top:30px;
+     border-top:2px;
+       }
+
+.fwd, #Hunters, #Army {padding-top:30px;
+    padding-bottom: 30px;
+    background-image: url("images/bg_light.png");
+}
+
+#Reward, #Contact, #Ring {
+
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-image: url("images/bg_dark.png")}
+
+#Reward h2{ color:white;
+        margin-bottom: 30px; }
+
+#Contact h2{ color:white;
+        margin-bottom: 30px; }
+
+#Ring h2{ color:white;
+        margin-bottom: 30px; }
+
+
+.fwd ul {justify-content: center;}
+
+#Fellows p {
+    text-align: center;
+}
+
+.carousel-items {height: 400px;}
+
+.tableau {width: 30%;
+          }
+
 .imagefloue {
     
     z-index:1;            
@@ -42,4 +106,61 @@
          margin-left:60px;}
 
 
-.
+#Reward, #Ring {
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-image: url("images/bg_dark.png");
+
+}
+
+.reward_img {border-radius:50%;
+            margin-left: auto;
+          margin-right: auto;}
+
+.reward__container {color:white;
+                    justify-content: :center;}
+
+
+
+.ring-card{justify-content: center;
+    width:50%;
+}
+
+
+
+.ring table{
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.ring-hearder-card{
+    background-color: #d8d8d8;
+}
+
+.ring-img{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ring_WhyContainer{margin-top:100px;
+    margin-left:auto;
+    width: 100%;
+
+}
+
+.ring-card-awesome{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sarmy{ height: 200px; }
+
+.blabla{padding-top: 2em;}
+
+.join-button{margin-top: 5em;}
+
+.formulaire {margin-left:auto;}
